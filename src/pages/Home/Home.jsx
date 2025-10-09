@@ -1,11 +1,14 @@
 import React from 'react';
 import Banner from './Banner';
+import { useLoaderData } from 'react-router';
+import AllApps from '../../components/AllApps/AllApps';
 
 const Home = () => {
+    const allApps=useLoaderData();
     return (
         <div>
             <Banner></Banner>
-            <h1>Ami Home</h1>
+            <AllApps allApps={allApps}></AllApps>
         </div>
     );
 };

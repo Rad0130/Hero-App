@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
+            <footer className="footer sm:footer-horizontal text-white bg-[#001931] p-10">
                 <nav>
                     <h6 className="footer-title">Services</h6>
                     <a className="link link-hover">Branding</a>
@@ -26,13 +26,13 @@ const Footer = () => {
                     <a className="link link-hover">Cookie policy</a>
                 </nav>
                 </footer>
-                <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
+                <footer className="footer bg-[#001931] text-white border-base-300 border-t px-10 py-4">
                 <aside className="grid-flow-col items-center">
                     <img className='w-10 h-10' src={logo} alt="" />
                     <p>
                     HERO.IO Ltd.
                     <br />
-                    Providing reliable tech since 1992
+                    Providing reliable tech since 2022
                     </p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
