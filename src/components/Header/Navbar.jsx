@@ -39,10 +39,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className='flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-2 rounded-[5px]'>
+                <a href='https://github.com/Rad0130' className='flex items-center gap-2 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 py-2 rounded-[5px]'>
                     <img src={con} alt="con" srcset="" />
                     <h3 className='text-white font-bold'>Contribute</h3>
-                </div>
+                </a>
             </div>
             </div>
     );

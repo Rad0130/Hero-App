@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://logo.clearbit.com/spotify.com?size=512",
+    "title": "Spotify Music",
+    "companyName": "Spotify Ltd.",
+    "id": 1,
+    "description": "Stream millions of songs and podcasts on demand with Spotify.",
+    "size": 42.5,
+    "reviews": 4523000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 3061000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/instagram.com?size=512",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 2,
+    "description": "Share photos, videos, and connect with friends and creators around the world.",
+    "size": 58.9,
+    "reviews": 10400000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 5400000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/whatsapp.com?size=512",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "id": 3,
+    "description": "Free messaging and calling app to stay connected with anyone, anywhere.",
+    "size": 37.2,
+    "reviews": 8900000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 5300000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/snapchat.com?size=512",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 4,
+    "description": "Share moments instantly and stay connected with friends through snaps and chats.",
+    "size": 66.1,
+    "reviews": 4100000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 1850000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/tiktok.com?size=512",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 5,
+    "description": "Watch and create short videos with music, filters, and effects.",
+    "size": 74.8,
+    "reviews": 9800000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 5500000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/netflix.com?size=512",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 6,
+    "description": "Watch your favorite TV shows, movies, and documentaries anytime.",
+    "size": 82.3,
+    "reviews": 7900000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 3850000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/x.com?size=512",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 7,
+    "description": "Join the conversation! Follow people and discover trending topics worldwide.",
+    "size": 50.6,
+    "reviews": 3200000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/youtube.com?size=512",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Watch, upload, and share videos across a variety of categories and creators.",
+    "size": 92.7,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 8700000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/telegram.org?size=512",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 9,
+    "description": "Fast and secure messaging app with cloud storage and privacy features.",
+    "size": 41.8,
+    "reviews": 2900000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/zoom.us?size=512",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 10,
+    "description": "Video conferencing app for meetings, webinars, and online collaboration.",
+    "size": 78.5,
+    "reviews": 5600000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 2700000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/canva.com?size=512",
+    "title": "Canva",
+    "companyName": "Canva Pty Ltd.",
+    "id": 11,
+    "description": "Design anything easily — from social media posts to presentations and logos.",
+    "size": 85.0,
+    "reviews": 3700000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/pinterest.com?size=512",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 12,
+    "description": "Discover creative ideas, recipes, fashion, and inspiration from around the world.",
+    "size": 64.2,
+    "reviews": 2700000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1280000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/duolingo.com?size=512",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 13,
+    "description": "Learn languages for free with fun lessons and gamified progress tracking.",
+    "size": 56.3,
+    "reviews": 3200000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/discord.com?size=512",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 14,
+    "description": "Chat, voice, and video communication for communities and gaming groups.",
+    "size": 73.9,
+    "reviews": 2800000,
+    "ratingAvg": 4.6,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1680000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/reddit.com?size=512",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 15,
+    "description": "Join communities, share content, and explore trending discussions and memes.",
+    "size": 61.7,
+    "reviews": 1800000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 220000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 870000 }
+    ]
+  }
+]
