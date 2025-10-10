@@ -15,14 +15,14 @@ const Banner = () => {
                         <span>Our goal is to turn your ideas into digital experiences that truly make an impact.</span></p>
                 </div>
                 <div className='flex justify-center items-center gap-4 mt-10'>
-                    <div className='flex items-center gap-2 border-1 border-gray-300 px-4 py-2 rounded-[5px]'>
+                    <a href='https://play.google.com/store/games?hl=en' className='flex items-center gap-2 border-1 border-gray-300 px-4 py-2 rounded-[5px]'>
                         <img src={play} alt="" />
                         <h3>Google Play</h3>
-                    </div>
-                    <div className='flex items-center gap-2 border-1 border-gray-300 px-4 py-2 rounded-[5px]'>
+                    </a>
+                    <a href='https://www.apple.com/app-store/' className='flex items-center gap-2 border-1 border-gray-300 px-4 py-2 rounded-[5px]'>
                         <img src={group} alt="" />
                         <h3>App Store</h3>
-                    </div>
+                    </a>
                 </div>
             </div>
             <div className='flex justify-center mt-10 px-2 md:px-0'>

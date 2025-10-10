@@ -268,5 +268,167 @@
       { "name": "4 star", "count": 500000 },
       { "name": "5 star", "count": 870000 }
     ]
+  },
+  {
+    "image": "https://logo.clearbit.com/slack.com?size=512",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 16,
+    "description": "A collaboration hub that brings teams together, wherever you are.",
+    "size": 120.3,
+    "reviews": 1500000,
+    "ratingAvg": 4.4,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/uber.com?size=512",
+    "title": "Uber",
+    "companyName": "Uber Technologies Inc.",
+    "id": 17,
+    "description": "Get a ride, order food, or deliver packages — all in one app.",
+    "size": 99.4,
+    "reviews": 6300000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 3230000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/airbnb.com?size=512",
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "id": 18,
+    "description": "Book unique homes and experience a city like a local.",
+    "size": 88.7,
+    "reviews": 4300000,
+    "ratingAvg": 4.6,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2850000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/linkedin.com?size=512",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corp.",
+    "id": 19,
+    "description": "Connect to opportunity, with access to jobs, news, and professional insights.",
+    "size": 76.5,
+    "reviews": 2400000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1790000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/trello.com?size=512",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 20,
+    "description": "Organize anything with boards, lists, and cards — great for project management.",
+    "size": 65.9,
+    "reviews": 1100000,
+    "ratingAvg": 4.7,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/skype.com?size=512",
+    "title": "Skype",
+    "companyName": "Skype Technologies",
+    "id": 21,
+    "description": "Free video calls, voice calls and chat — call friends, family, or anyone.",
+    "size": 48.2,
+    "reviews": 2200000,
+    "ratingAvg": 4.1,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/dropbox.com?size=512",
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "id": 22,
+    "description": "Secure file sharing and storage, share files across devices.",
+    "size": 70.5,
+    "reviews": 1400000,
+    "ratingAvg": 4.3,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 930000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/etsy.com?size=512",
+    "title": "Etsy",
+    "companyName": "Etsy, Inc.",
+    "id": 23,
+    "description": "Shop handmade, vintage items, and unique factory-manufactured items.",
+    "size": 52.1,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1020000 }
+    ]
+  },
+  {
+    "image": "https://logo.clearbit.com/shopify.com?size=512",
+    "title": "Shopify",
+    "companyName": "Shopify Inc.",
+    "id": 25,
+    "description": "Commerce platform that powers millions of businesses across the globe.",
+    "size": 67.8,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1130000 }
+    ]
   }
 ]
