@@ -12,8 +12,8 @@ const AppDetails = () => {
     const {downloads,image,ratingAvg,title,size,companyName,reviews,ratings,description}=singleApp;
     return (
         <div className='bg-[#F5F5F5]'>
-            <div className='p-20'>
-                <div className='flex gap-8 items-center pb-10 border-b-1 border-gray-300'>
+            <div className='p-5 md:p-20'>
+                <div className='flex flex-col md:flex-row gap-8 items-center pb-10 border-b-1 border-gray-300'>
                     <div>
                         <img className='w-120 h-96' src={image} alt="" />
                     </div>
@@ -22,7 +22,7 @@ const AppDetails = () => {
                             <h1 className='font-bold text-4xl'>{title}</h1>
                             <p className='text-[#627382] text-xl'>Developed by <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>{companyName}</span></p>
                         </div>
-                        <div className='flex gap-20 my-10'>
+                        <div className='flex flex-col md:flex-row gap-20 my-10'>
                             <div className='space-y-3'>
                                 <img src={download} alt="" />
                                 <h5>Downloads</h5>
@@ -45,7 +45,7 @@ const AppDetails = () => {
                     </div>
                 </div>
                 <div><DetailsChart ratings={ratings}></DetailsChart></div>
-                <div className='mt-10'>
+                <div className='mt-10 space-y-3'>
                     <h1 className='font-bold text-3xl'>Discription</h1>
                     <p className='text-[#627382]'>{description}</p>
                 </div>
