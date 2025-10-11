@@ -1,15 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import download from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 import like from '../../assets/icon-review.png';
 import DetailsChart from '../DetailsChart/DetailsChart';
+import { ToastContainer, toast } from 'react-toastify';
+import { addToStoredApps } from '../../Utils/addToLocal';
 
 const AppDetails = () => {
     const {id}=useParams();
     const appDetails=useLoaderData();
     const singleApp=appDetails.find(app=>app.id===parseInt(id));
     const {downloads,image,ratingAvg,title,size,companyName,reviews,ratings,description}=singleApp;
+    const [isDisabled,setIsDisabled]=useState(false);
+    useEffect(() => {
+        const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+        if (storedApps.includes(parseInt(id))) {
+            setIsDisabled(true);
+        }
+    }, [id]);
+    const handleClick=(id)=>{
+        const storedApps=JSON.parse(localStorage.getItem('installedApps')) || [];
+        if(storedApps.includes(parseInt(id))){
+            toast('App Already Installed!');
+            setIsDisabled(true);
+            return;
+        }
+        addToStoredApps(id);
+        setIsDisabled(true)
+        toast(`Successfully Installed ${singleApp.title}!`)
+    }
     return (
         <div className='bg-[#F5F5F5]'>
             <div className='p-5 md:p-20'>
@@ -40,7 +60,8 @@ const AppDetails = () => {
                             </div>
                         </div>
                         <div>
-                            <button className='bg-[#00D390] px-5 py-2 text-white rounded-[5px] font-bold cursor-pointer'>Install Now ({size} MB)</button>
+                            <button onClick={()=>handleClick(id)} disabled={isDisabled} className={`${isDisabled?'bg-gray-400 cursor-not-allowed':'bg-[#00D390] text-white hover:bg-green-300 cursor-pointer'} px-5 py-2 rounded-[5px] font-bold`}>{isDisabled?`Installed`:`Install Now (${size} MB)`}</button>
+                            <ToastContainer />
                         </div>
                     </div>
                 </div>
