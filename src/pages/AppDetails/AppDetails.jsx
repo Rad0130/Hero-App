@@ -29,7 +29,7 @@ const AppDetails = () => {
         }
         addToStoredApps(id);
         setIsDisabled(true)
-        toast(<div className='flex items-center gap-2'><span className='text-green-500'><IoCloudDoneOutline/></span>Successfully Installed <span className='text-green-500'>{title}</span>!!</div>)
+        toast(<div className='flex items-center gap-2'><span className='text-green-500'><IoCloudDoneOutline/></span>Successfully Installed <span className='text-green-500'>{title}</span>!!</div>,{style:{width:"100%"}})
     }
     return (
         <div className='bg-[#F5F5F5]'>

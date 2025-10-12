@@ -11,7 +11,7 @@ const ErrorElement = () => {
                 <Navbar></Navbar>
             </div>
             <div className='bg-[#F5F5F5]'>
-                <div className='text-center p-30'>
+                <div className='text-center p-2 md:p-30'>
                     <div className='flex justify-center'>
                         <img src={error} alt="" />
                     </div>

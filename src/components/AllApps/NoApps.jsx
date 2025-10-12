@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 const NoApps = () => {
     return (
             <div className='bg-[#F5F5F5]'>
-                <div className='text-center p-30 space-y-10'>
+                <div className='text-center p-5 md:p-30 space-y-10'>
                     <div className='flex justify-center'>
                         <img src={noApp} alt="" />
                     </div>

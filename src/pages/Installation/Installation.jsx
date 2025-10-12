@@ -39,7 +39,7 @@ const Installation = () => {
     
     return (
         <div className='bg-[#F5F5F5]'>
-            <div className='p-20'>
+            <div className='py-20 px-4 md:px-50'>
                 <div className='text-center space-y-3 mb-10'>
                     <h1 className='font-bold text-4xl'>Your Installed Apps</h1>
                     <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>

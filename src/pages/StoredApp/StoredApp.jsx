@@ -6,9 +6,9 @@ const StoredApp = ({installedApp,handleUninstall}) => {
     const {downloads,image,size,id,ratingAvg,title}=installedApp;
     return (
         <div className='bg-white rounded-[5px]'>
-                    <div className='flex justify-between items-center p-2'>
-                        <div className='flex items-center gap-4'>
-                            <img className='w-20 h-20 rounded-2xl' src={image} alt="" />
+                    <div className='flex flex-col md:flex-row justify-between items-center p-2'>
+                        <div className='flex flex-col md:flex-row items-center gap-4'>
+                            <img className='w-full md:w-20 h-50 md:h-20 rounded-2xl' src={image} alt="" />
                             <div className='space-y-4'>
                                 <div>
                                     <h1 className='text-2xl'>{title}</h1>
