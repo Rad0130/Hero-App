@@ -2,8 +2,8 @@ import React from 'react';
 import download from '../../assets/icon-downloads.png';
 import star from '../../assets/icon-ratings.png';
 
-const StoredApp = ({installedApp}) => {
-    const {downloads,image,size,ratingAvg,title}=installedApp;
+const StoredApp = ({installedApp,handleUninstall}) => {
+    const {downloads,image,size,id,ratingAvg,title}=installedApp;
     return (
         <div className='bg-white rounded-[5px]'>
                     <div className='flex justify-between items-center p-2'>
@@ -31,7 +31,7 @@ const StoredApp = ({installedApp}) => {
                             </div>
                         </div>
                         <div>
-                            <button className='px-4 py-1 bg-[#00D390] text-white font-bold rounded-[5px]'>Uninstall</button>
+                            <button onClick={()=>handleUninstall(id,title)} className='px-4 py-1 bg-[#00D390] text-white font-bold rounded-[5px] cursor-pointer'>Uninstall</button>
                         </div>
                     </div>
                 </div>

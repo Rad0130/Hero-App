@@ -5,7 +5,8 @@ import star from '../../assets/icon-ratings.png';
 import like from '../../assets/icon-review.png';
 import DetailsChart from '../DetailsChart/DetailsChart';
 import { ToastContainer, toast } from 'react-toastify';
-import { addToStoredApps } from '../../Utils/addToLocal';
+import { addToStoredApps, getStoredApps } from '../../Utils/addToLocal';
+import { IoCloudDoneOutline } from "react-icons/io5";
 
 const AppDetails = () => {
     const {id}=useParams();
@@ -14,13 +15,13 @@ const AppDetails = () => {
     const {downloads,image,ratingAvg,title,size,companyName,reviews,ratings,description}=singleApp;
     const [isDisabled,setIsDisabled]=useState(false);
     useEffect(() => {
-        const storedApps = JSON.parse(localStorage.getItem('installedApps')) || [];
+        const storedApps = getStoredApps();
         if (storedApps.includes(parseInt(id))) {
             setIsDisabled(true);
         }
     }, [id]);
     const handleClick=(id)=>{
-        const storedApps=JSON.parse(localStorage.getItem('installedApps')) || [];
+        const storedApps=getStoredApps();
         if(storedApps.includes(parseInt(id))){
             toast('App Already Installed!');
             setIsDisabled(true);
@@ -28,7 +29,7 @@ const AppDetails = () => {
         }
         addToStoredApps(id);
         setIsDisabled(true)
-        toast(`Successfully Installed ${singleApp.title}!`)
+        toast(<div className='flex items-center gap-2'><span className='text-green-500'><IoCloudDoneOutline/></span>Successfully Installed <span className='text-green-500'>{title}</span>!!</div>)
     }
     return (
         <div className='bg-[#F5F5F5]'>
