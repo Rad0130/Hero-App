@@ -1,4 +1,4 @@
-📱 App Store Platform
+**📱 Hero-App**
 
 Overview
 
@@ -16,7 +16,7 @@ Screenshots
 
 
 
-🛠 Main Technologies Used
+**🛠 Main Technologies Used**
 
 Frontend: React.js, HTML, CSS
 
@@ -28,8 +28,7 @@ Routing: React Router DOM
 
 Deployment: Vercel / Netlify / Cloudflare
 
-🔑 Key Features
-
+**🔑 Key Features
 Header & Footer:
 
 Logo linking to Home page
@@ -82,30 +81,7 @@ Custom 404 page for invalid routes
 
 Loading animations during page navigation and search
 
-📂 App Data Structure
-
-The app data is stored as a JSON array with objects containing:
-
-{
-  "image": "string",
-  "title": "string",
-  "companyName": "string",
-  "id": 1,
-  "description": "string",
-  "size": 120,
-  "reviews": 45,
-  "ratingAvg": 4.2,
-  "downloads": 1000,
-  "ratings": [
-    { "name": "1 star", "count": 2 },
-    { "name": "2 star", "count": 3 },
-    { "name": "3 star", "count": 5 },
-    { "name": "4 star", "count": 10 },
-    { "name": "5 star", "count": 25 }
-  ]
-}
-
-⚙️ Dependencies
+⚙️ **Dependencies**
 
 React (react, react-dom)
 
@@ -117,7 +93,7 @@ Toast Notifications (react-toastify)
 
 CSS Framework (optional, e.g., Tailwind CSS or custom CSS)
 
-🚀 How to Run Locally
+**🚀 How to Run Locally**
 
 Clone the repository
 
@@ -138,10 +114,10 @@ npm start
 Open in browser
 Navigate to http://localhost:3000
 
-🌐 Live Demo
+**🌐 Live Demo**
 
 http://hero-apps.surge.sh/
 
-🔗 Relevant Links
+**🔗 Relevant Links**
 
 GitHub Repository: https://github.com/Rad0130/Hero-App.git
